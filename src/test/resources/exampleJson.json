@@ -1,0 +1,24 @@
+{
+  "columnId": "1",
+  "created": {
+    "cost": 8624,
+    "datetimeUtc": "2023-06-27T08:34:57Z",
+    "timestampUtc": 1687854897000,
+    "volume": 2000
+  },
+  "id": "1cf7bd93-6c7a-42ca-90d3-368be068103f",
+  "product": {
+    "grade": "ai92",
+    "id": "a92",
+    "name": "АИ-92",
+    "price": 4312
+  },
+  "stationId": "testpartner:721",
+  "status": "completed",
+  "updated": {
+    "cost": 8624,
+    "datetimeUtc": "2023-06-27T09:00:04Z",
+    "timestampUtc": 1687856404000,
+    "volume": 2000
+  }
+}

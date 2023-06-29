@@ -16,7 +16,16 @@ dependencies {
     testImplementation(
             "org.junit.jupiter:junit-jupiter:${junitVersion}",
             "org.slf4j:slf4j-simple:${slf4jVersion}",
+            "com.codeborne:pdf-test:1.8.1",
+            "com.codeborne:xls-test:1.4.3",
+            "com.opencsv:opencsv:5.7.1",
+            "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+            "org.projectlombok:lombok:1.18.28"
     )
+    testCompileOnly "org.projectlombok:lombok:1.18.28"
+    testAnnotationProcessor "org.projectlombok:lombok:1.18.28"
+
+
 }
 
 tasks.withType(JavaCompile).configureEach {
